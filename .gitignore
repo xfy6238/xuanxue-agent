@@ -1,0 +1,20 @@
+# 本地运行产物（绝不进仓库）
+code/xuanxue.db*
+code/.jwt-secret
+code/classics_db/
+code/__pycache__/
+code/.ruff_cache/
+backups/
+*.log
+
+# 系统/编辑器
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# 前端构建（web/下已有独立.gitignore，此处双保险）
+web/node_modules/
+web/.next/
+web/dist/
+web/.env.local
